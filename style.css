@@ -53,11 +53,10 @@
   .mensaje img {
     background-color: white;
     width: 85%;
-    margin: auto;
-    padding-top: 10px;
-    
+    padding: 0px 30px;
+    margin-top: 20px;
   }
-  
+
   .mensaje h6 {
     background-color: white;
     color: #343a40;
@@ -116,5 +115,8 @@
     gap: 8px;
     color: #495857;
     font-size: 12px;
+  }
+  .informacion h6 {   
+    margin: 19px;
   }
  
