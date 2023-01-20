@@ -1,0 +1,120 @@
+* {
+    background: #e5e5e5;
+    font-family: "Inter";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+  }
+  
+  .logo {
+    padding-top: 10px;
+    margin-left: 10px;
+    width: 2%;
+  }
+  
+  main {
+    display: flex;
+    margin-bottom: 50px;
+    margin-left: 80px;
+  }
+  
+  .text-area {
+    width: 70%;
+    height: 264px;
+    border: none;
+    color: #0a3871;
+    margin-top: 90px;
+    text-transform: lowercase;
+  }
+  ::placeholder {
+    color: #0a3871;
+    font-size: 32px;
+  }
+  .text-area:focus {
+    outline: none;
+  }
+  
+  .mensaje {
+    width: 400px;
+    height: 500px;
+    background: white;
+    border: none;
+    border-radius: 24px 24px 24px 24px;
+    color: #0a3871;
+    margin-left: 98px;
+    margin-top: 20px;
+    position: absolute;
+  }
+  
+  .mensaje:focus {
+    outline: none;
+  }
+  
+  .mensaje img {
+    background-color: white;
+    width: 85%;
+    margin: auto;
+    padding-top: 10px;
+    
+  }
+  
+  .mensaje h6 {
+    background-color: white;
+    color: #343a40;
+    width: 336px;
+    margin: auto;
+    text-align: center;
+    padding-top: 20px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 120%;
+  }
+  
+  .mensaje p {
+    background-color: white;
+    color: #495057;
+    width: 336px;
+    margin: auto;
+    text-align: center;
+    padding-top: 10px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+  }
+  
+  .botones {
+    display: flex;
+    margin-top: 18px;
+  }
+  
+  .btn-desencriptar {
+    background: #d8dfe8;
+    border: 1px solid #0a3871;
+    border-radius: 24px;
+    color: #0a3871;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 30px;
+    width: 328px;
+  }
+  
+  .btn-encriptar {
+    background-color: #0a3871;
+    border: 1px solid #0a3871;
+    border-radius: 24px;
+    color: white;
+    cursor: pointer;
+    height: 67px;
+    width: 328px;
+  }
+  
+  .informacion {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 8px;
+    color: #495857;
+    font-size: 12px;
+  }
+ 

@@ -4,36 +4,40 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=, initial-scale=1.0">
-    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="Reset.css">
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100&display=swap" rel="stylesheet">
     <title>Document</title>
 </head>
 <body>
     <header>
-        <img class="logo" src="img/Icono.svg" alt="icono">
+        <img class="logo" src="img/Icono.svg" alt="icono de la pagina , letra a ">
     </header>
     <main>
         <section>
-          <textarea cols="30" rows="10" placeholder="ingrese texto aqui"></textarea>
-           <h6>Solo letras minúsculas y sin acentos</h6>
-            <div>
-                <button>Encriptar</button>
-                <button>Desencriptar</button>
-            </div>         
+            <textarea class="text-area"  placeholder="ingrese texto aqui"></textarea>    
+                <div class="informacion">
+                     <img src="img/Vector.svg" alt="logo pequeño alineado al lado del texto">
+                     <h6>Solo letras minúsculas y sin acentos</h6> 
+                </div>                                           
+            <div class="botones">
+                 <button class="btn-encriptar">Encriptar</button>
+                 <button class="btn-desencriptar">Desencriptar</button> 
+            </div>             
         </section>
 
-        <section>   
-            <div>
-                <textarea cols="30" rows="10"></textarea>         
-                <img src="img/Muñeco.svg" alt="imagen de muñeco">  
-            </div>   
-  </section>
-         
-    <footer>
+        <section>
+            <div class="mensaje">
+                <img src="img/Muñeco.svg" alt="imagen de un muñeco de fondo ">
+                     <h6>Ningun mensaje fue encontrado</h6>
+                     <p>Ingresa el texto que desees encriptar o desencriptar.</p>
+             </div>   
+        </section>
+       
 
-    </footer>
     </main>
-
     <script src="script.js"></script>
 </body>
 </html>
