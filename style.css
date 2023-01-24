@@ -1,9 +1,12 @@
 * {
-    background: #e5e5e5;
     font-family: "Inter";
     font-weight: 400;
     font-size: 16px;
     line-height: 150%;
+  }
+  .fondo{
+    background: linear-gradient(#000706, #00272d);
+    
   }
   
   .logo {
@@ -22,14 +25,15 @@
     width: 70%;
     height: 264px;
     border: none;
-    color: #0a3871;
+    resize: none;
     font-size: 32px;
     margin-top: 90px;
     text-transform: lowercase;
-    resize: none;
+    Background-color: transparent;  
+    color: white;
   }
   ::placeholder {
-    color: #0a3871;
+    color: #bfac8b;
     font-size: 32px;
   }
   .text-area:focus {
@@ -39,10 +43,9 @@
   .mensaje {
     width: 400px;
     height: 500px;
-    background: white;
+    background: #00272d;
     border: none;
     border-radius: 24px 24px 24px 24px;
-    color: #0a3871;
     margin-left: 98px;
     margin-top: 20px;
     position: absolute;
@@ -53,15 +56,15 @@
   }
   
   .mensaje img {
-    background-color: white;
+    background-color: #00272d;
     width: 85%;
     padding: 0px 30px;
-    margin-top: 20px;
+    margin-top:24px;
   }
 
   .mensaje h6 {
-    background-color: white;
-    color: #343a40;
+    background-color: #00272d;
+    color: #bfac8b;
     width: 336px;
     margin: auto;
     text-align: center;
@@ -72,8 +75,8 @@
   }
   
   .mensaje p {
-    background-color: white;
-    color: #495057;
+    background-color: #00272d;
+    color: #dacdac;
     width: 336px;
     margin: auto;
     text-align: center;
@@ -87,21 +90,10 @@
     display: flex;
     margin-top: 18px;
   }
-  
-  .btn-desencriptar {
-    background: #d8dfe8;
-    border: 1px solid #0a3871;
-    border-radius: 24px;
-    color: #0a3871;
-    cursor: pointer;
-    height: 67px;
-    margin-left: 30px;
-    width: 328px;
-  }
-  
+
   .btn-encriptar {
-    background-color: #0a3871;
-    border: 1px solid #0a3871;
+    background-color: #0c7e7e;
+    border: 1px solid #0c7e7e;
     border-radius: 24px;
     color: white;
     cursor: pointer;
@@ -109,31 +101,41 @@
     width: 328px;
   }
   
+  .btn-desencriptar {
+    background: #95c68f;
+    border: 1px solid #95c68f;
+    border-radius: 24px;
+    color: #0a3871;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 30px;
+    width: 328px;
+  }
+
   .informacion {
     display: flex;
     flex-direction: row;
     align-items: center;
     padding: 0px;
-    gap: 8px;
-    color: #495857;
     font-size: 12px;
   }
   
-  .informacion h6 {   
+  .informacion h6 { 
+    color: #bfac8b;  
     margin: 19px;
   }
 
   .resultado {
     font-weight: 400;
     font-size: 24px;
-    color: #495057;
+    color: white;
   }
   
   #copiar{
-    background: #d8dfe8;
-    border: 1px solid #0a3871;
+    background: #0c7e7e;
+    border: 1px solid #0c7e7e;
     border-radius: 24px;
-    color: #0a3871;
+    color:white;
     cursor: pointer;
     height: 67px;
     margin-left: 30px;
@@ -143,16 +145,65 @@
 
 #cajaRespuesta {
     border: none;
-    background: white;
+    background-color: #00272d;
     border-radius: 32px;
     resize: none;
     width: 350px;
     height: 300px;
     padding: 24px;
+    color: white;
 }
 
 #cajaRespuesta:focus{
     outline: none;
 }
   
+@media screen and (min-width:0px) and (max-width:375px){
+
+  .logo{
+    width: 7%;
+  }
+
+  main{
+    display: block;
+    margin-bottom: 50px;
+    margin-left: 15px;
+    width: 90%;
+  }
+
+  .text-area{
+    width: 375px;
+    margin-top: 40px;
+    margin-right: 5px;
+  }
   
+  .mensaje {
+    width: 365px;
+    margin: 0px; 
+  }
+
+  .mensaje img {
+    display: none;
+  }
+
+  .botones{
+    display: block;
+  }
+
+  .btn-encriptar {
+    width: 365px;
+  }
+
+  .btn-desencriptar{
+    width: 365px;
+    margin-left: 0;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  #cajaRespuesta{
+    width: 300px;
+    padding: 10px;
+  }
+
+}
